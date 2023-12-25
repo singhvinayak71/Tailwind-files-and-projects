@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tailwind Dental Clinic</title>
+    <style>
+        /* Additional styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Logo -->
+            <a href="#" class="text-white text-2xl font-bold">Dentist</a>
+
+            <!-- Navbar Links -->
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="text-white">Home</a>
+                <a href="#" class="text-white">About</a>
+                <a href="#" class="text-white">Contact</a>
+                <a href="#" class="text-white relative" id="servicesBtn">Services</a>
+                <a href="#" class="text-white">Login</a>
+            </div>
+
+            <!-- Mobile Toggle Button -->
+            <div class="md:hidden">
+                <button id="mobileMenuBtn" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Initially Hidden) -->
+        <div class="md:hidden hidden" id="mobileMenu">
+            <a href="#" class="block py-2 px-4 text-white">Home</a>
+            <a href="#" class="block py-2 px-4 text-white">About</a>
+            <a href="#" class="block py-2 px-4 text-white">Contact</a>
+            <a href="#" class="block py-2 px-4 text-white">Services</a>
+            <a href="#" class="block py-2 px-4 text-white">Login</a>
+        </div>
+    </nav>
+
+
+    <!-- Content Goes Here -->
+    <div class="container flex justify-between flex-col items-center p-8">
+        <!-- Your content goes here -->
+        <h1 class="text-3xl font-bold mb-4">Welcome to Tailwind Dental Clinic</h1>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p> -->
+    </div>
+
+    
+    <div class="container mx-auto mt-8 grid ">
+
+        <!-- Responsive Card Container -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
+
+            <!-- Card 1 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg ">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/c29e140f0f214d3d8fee34e80380bc55_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Wisdom Tooth Extraction financing</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/a2693a2df3894c1fad3a6d13a9b9fc63_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Wisdom Tooth Removel Cost</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/d320a196e53a403abfba72ab78d09686_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Wisdom Tooth Extraction Handing Time</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/9dae6e2f4c16407d9e851bf8e7a2cf4f_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Tooth Extraction Recovery</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/8312aa3a6af241839902e614f8d20dcb_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Wisdom Teeth Stitches</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <img class="w-full h-48 object-cover" src="https://topimgcdn.com/bc21a19bd39d4a289a3079579dbfb722_400x300_0_0_80_thumb.webp" alt="Card Image">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Wisdom Teeth swelling</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam eget mauris vel nunc gravida dapibus.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+     <!-- Footer -->
+     <footer class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex flex-col items-center">
+
+            <!-- Copyright Information -->
+            <p class="text-center">&copy; 2023 Momentum Marketing Team LLC. All rights reserved.</p>
+
+            <!-- Footer Links -->
+            <div class="flex mt-4">
+                <a href="#" class="mr-4">About</a>
+                <a href="#" class="mr-4">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dropdown -->
+    <script>
+        // Dropdown functionality
+        document.getElementById('servicesBtn').addEventListener('mouseenter', function () {
+            document.getElementById('servicesDropdown').classList.remove('hidden');
+        });
+
+        document.getElementById('servicesBtn').addEventListener('mouseleave', function () {
+            document.getElementById('servicesDropdown').classList.add('hidden');
+        });
+    </script>
+
+</body>
+</html>
